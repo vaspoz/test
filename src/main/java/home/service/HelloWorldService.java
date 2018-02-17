@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class HelloWorldService {
 
-    @Value("${name:Worldddd!!!}")
+    @Value("${name:World!}")
     private String name;
 
     public String getHelloMessage() {
